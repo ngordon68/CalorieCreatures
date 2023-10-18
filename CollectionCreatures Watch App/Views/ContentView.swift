@@ -176,7 +176,7 @@ struct ContentView: View {
                            .rotationEffect(.degrees(animationEggState ? 0 : 10), anchor: .bottom)
                         .scaleEffect(1.2)
             
-               
+     //
              
             
             Text("\(Int(healthManager.testcalorieBank)) / \(eggVM.currentEgg.caloriesNeeded) Kcal")
