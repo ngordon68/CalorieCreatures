@@ -38,7 +38,9 @@ struct ContentView: View {
     }
     
     func increaseCalories() {
-        healthManager.currentCalories += 500
+        healthManager.currentCalories += 300
+        
+        //changing my calories to 300 instead of 500
     }
     
     var body: some View {
