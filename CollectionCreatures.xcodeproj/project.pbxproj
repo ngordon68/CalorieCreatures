@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E20CAA12ABDB66D001C38CC /* PetEggModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20CAA02ABDB66D001C38CC /* PetEggModel.swift */; };
+		8E20CAA32ABDCCBA001C38CC /* EggCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20CAA22ABDCCBA001C38CC /* EggCollectionView.swift */; };
+		8E20CAA52ABDD132001C38CC /* EggViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20CAA42ABDD132001C38CC /* EggViewModel.swift */; };
+		8E2418192AC344F1003E8429 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2418182AC344F1003E8429 /* PetModel.swift */; };
+		8E24181B2AC35A51003E8429 /* PetCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24181A2AC35A51003E8429 /* PetCollectionView.swift */; };
+		8E6674152ABB604000B86A7B /* CollectionCreatures Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8E6674142ABB604000B86A7B /* CollectionCreatures Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8E66741A2ABB604000B86A7B /* CollectionCreaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6674192ABB604000B86A7B /* CollectionCreaturesApp.swift */; };
+		8E66741C2ABB604000B86A7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E66741B2ABB604000B86A7B /* ContentView.swift */; };
+		8E66741E2ABB604100B86A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E66741D2ABB604100B86A7B /* Assets.xcassets */; };
+		8E6674212ABB604100B86A7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6674202ABB604100B86A7B /* Preview Assets.xcassets */; };
+		8E66742B2ABB604100B86A7B /* CollectionCreatures_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E66742A2ABB604100B86A7B /* CollectionCreatures_Watch_AppTests.swift */; };
+		8E6674352ABB604100B86A7B /* CollectionCreatures_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6674342ABB604100B86A7B /* CollectionCreatures_Watch_AppUITests.swift */; };
+		8E6674372ABB604100B86A7B /* CollectionCreatures_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6674362ABB604100B86A7B /* CollectionCreatures_Watch_AppUITestsLaunchTests.swift */; };
+		8E66744A2ABB827B00B86A7B /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6674492ABB827B00B86A7B /* HealthKitManager.swift */; };
+		8EFA2CCA2AD7341C0074024A /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA2CC92AD7341C0074024A /* NotificationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E6674162ABB604000B86A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E6674082ABB604000B86A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E6674132ABB604000B86A7B;
+			remoteInfo = "CollectionCreatures Watch App";
+		};
+		8E6674272ABB604100B86A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E6674082ABB604000B86A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E6674132ABB604000B86A7B;
+			remoteInfo = "CollectionCreatures Watch App";
+		};
+		8E6674312ABB604100B86A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E6674082ABB604000B86A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E6674132ABB604000B86A7B;
+			remoteInfo = "CollectionCreatures Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E66743D2ABB604100B86A7B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8E6674152ABB604000B86A7B /* CollectionCreatures Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8E20CAA02ABDB66D001C38CC /* PetEggModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetEggModel.swift; sourceTree = "<group>"; };
+		8E20CAA22ABDCCBA001C38CC /* EggCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggCollectionView.swift; sourceTree = "<group>"; };
+		8E20CAA42ABDD132001C38CC /* EggViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggViewModel.swift; sourceTree = "<group>"; };
+		8E2418182AC344F1003E8429 /* PetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
+		8E24181A2AC35A51003E8429 /* PetCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCollectionView.swift; sourceTree = "<group>"; };
+		8E66740E2ABB604000B86A7B /* CollectionCreatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionCreatures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6674142ABB604000B86A7B /* CollectionCreatures Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CollectionCreatures Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6674192ABB604000B86A7B /* CollectionCreaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCreaturesApp.swift; sourceTree = "<group>"; };
+		8E66741B2ABB604000B86A7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E66741D2ABB604100B86A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E6674202ABB604100B86A7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E6674262ABB604100B86A7B /* CollectionCreatures Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CollectionCreatures Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E66742A2ABB604100B86A7B /* CollectionCreatures_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCreatures_Watch_AppTests.swift; sourceTree = "<group>"; };
+		8E6674302ABB604100B86A7B /* CollectionCreatures Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CollectionCreatures Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6674342ABB604100B86A7B /* CollectionCreatures_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCreatures_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		8E6674362ABB604100B86A7B /* CollectionCreatures_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCreatures_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E6674492ABB827B00B86A7B /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		8E66744B2ABB85AD00B86A7B /* CollectionCreatures Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CollectionCreatures Watch App.entitlements"; sourceTree = "<group>"; };
+		8EFA2CC92AD7341C0074024A /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E6674112ABB604000B86A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6674232ABB604100B86A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E66742D2ABB604100B86A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E6674072ABB604000B86A7B = {
+			isa = PBXGroup;
+			children = (
+				8E6674182ABB604000B86A7B /* CollectionCreatures Watch App */,
+				8E6674292ABB604100B86A7B /* CollectionCreatures Watch AppTests */,
+				8E6674332ABB604100B86A7B /* CollectionCreatures Watch AppUITests */,
+				8E66740F2ABB604000B86A7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E66740F2ABB604000B86A7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E66740E2ABB604000B86A7B /* CollectionCreatures.app */,
+				8E6674142ABB604000B86A7B /* CollectionCreatures Watch App.app */,
+				8E6674262ABB604100B86A7B /* CollectionCreatures Watch AppTests.xctest */,
+				8E6674302ABB604100B86A7B /* CollectionCreatures Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E6674182ABB604000B86A7B /* CollectionCreatures Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				8E66744B2ABB85AD00B86A7B /* CollectionCreatures Watch App.entitlements */,
+				8E6674192ABB604000B86A7B /* CollectionCreaturesApp.swift */,
+				8ECE79F92AC477AF00F46B07 /* Views */,
+				8E20CAA42ABDD132001C38CC /* EggViewModel.swift */,
+				8ECE79FA2AC477E800F46B07 /* Models */,
+				8E6674492ABB827B00B86A7B /* HealthKitManager.swift */,
+				8E66741D2ABB604100B86A7B /* Assets.xcassets */,
+				8E66741F2ABB604100B86A7B /* Preview Content */,
+			);
+			path = "CollectionCreatures Watch App";
+			sourceTree = "<group>";
+		};
+		8E66741F2ABB604100B86A7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E6674202ABB604100B86A7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E6674292ABB604100B86A7B /* CollectionCreatures Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E66742A2ABB604100B86A7B /* CollectionCreatures_Watch_AppTests.swift */,
+			);
+			path = "CollectionCreatures Watch AppTests";
+			sourceTree = "<group>";
+		};
+		8E6674332ABB604100B86A7B /* CollectionCreatures Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E6674342ABB604100B86A7B /* CollectionCreatures_Watch_AppUITests.swift */,
+				8E6674362ABB604100B86A7B /* CollectionCreatures_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "CollectionCreatures Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		8ECE79F92AC477AF00F46B07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E66741B2ABB604000B86A7B /* ContentView.swift */,
+				8EFA2CC92AD7341C0074024A /* NotificationManager.swift */,
+				8E24181A2AC35A51003E8429 /* PetCollectionView.swift */,
+				8E20CAA22ABDCCBA001C38CC /* EggCollectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8ECE79FA2AC477E800F46B07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E2418182AC344F1003E8429 /* PetModel.swift */,
+				8E20CAA02ABDB66D001C38CC /* PetEggModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E66740D2ABB604000B86A7B /* CollectionCreatures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E66743E2ABB604100B86A7B /* Build configuration list for PBXNativeTarget "CollectionCreatures" */;
+			buildPhases = (
+				8E66740C2ABB604000B86A7B /* Resources */,
+				8E66743D2ABB604100B86A7B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E6674172ABB604000B86A7B /* PBXTargetDependency */,
+			);
+			name = CollectionCreatures;
+			productName = CollectionCreatures;
+			productReference = 8E66740E2ABB604000B86A7B /* CollectionCreatures.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		8E6674132ABB604000B86A7B /* CollectionCreatures Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E66743A2ABB604100B86A7B /* Build configuration list for PBXNativeTarget "CollectionCreatures Watch App" */;
+			buildPhases = (
+				8E6674102ABB604000B86A7B /* Sources */,
+				8E6674112ABB604000B86A7B /* Frameworks */,
+				8E6674122ABB604000B86A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CollectionCreatures Watch App";
+			productName = "CollectionCreatures Watch App";
+			productReference = 8E6674142ABB604000B86A7B /* CollectionCreatures Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E6674252ABB604100B86A7B /* CollectionCreatures Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6674412ABB604100B86A7B /* Build configuration list for PBXNativeTarget "CollectionCreatures Watch AppTests" */;
+			buildPhases = (
+				8E6674222ABB604100B86A7B /* Sources */,
+				8E6674232ABB604100B86A7B /* Frameworks */,
+				8E6674242ABB604100B86A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E6674282ABB604100B86A7B /* PBXTargetDependency */,
+			);
+			name = "CollectionCreatures Watch AppTests";
+			productName = "CollectionCreatures Watch AppTests";
+			productReference = 8E6674262ABB604100B86A7B /* CollectionCreatures Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E66742F2ABB604100B86A7B /* CollectionCreatures Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6674442ABB604100B86A7B /* Build configuration list for PBXNativeTarget "CollectionCreatures Watch AppUITests" */;
+			buildPhases = (
+				8E66742C2ABB604100B86A7B /* Sources */,
+				8E66742D2ABB604100B86A7B /* Frameworks */,
+				8E66742E2ABB604100B86A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E6674322ABB604100B86A7B /* PBXTargetDependency */,
+			);
+			name = "CollectionCreatures Watch AppUITests";
+			productName = "CollectionCreatures Watch AppUITests";
+			productReference = 8E6674302ABB604100B86A7B /* CollectionCreatures Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E6674082ABB604000B86A7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8E66740D2ABB604000B86A7B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8E6674132ABB604000B86A7B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8E6674252ABB604100B86A7B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8E6674132ABB604000B86A7B;
+					};
+					8E66742F2ABB604100B86A7B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8E6674132ABB604000B86A7B;
+					};
+				};
+			};
+			buildConfigurationList = 8E66740B2ABB604000B86A7B /* Build configuration list for PBXProject "CollectionCreatures" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E6674072ABB604000B86A7B;
+			productRefGroup = 8E66740F2ABB604000B86A7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E66740D2ABB604000B86A7B /* CollectionCreatures */,
+				8E6674132ABB604000B86A7B /* CollectionCreatures Watch App */,
+				8E6674252ABB604100B86A7B /* CollectionCreatures Watch AppTests */,
+				8E66742F2ABB604100B86A7B /* CollectionCreatures Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E66740C2ABB604000B86A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6674122ABB604000B86A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6674212ABB604100B86A7B /* Preview Assets.xcassets in Resources */,
+				8E66741E2ABB604100B86A7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6674242ABB604100B86A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E66742E2ABB604100B86A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E6674102ABB604000B86A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E20CAA32ABDCCBA001C38CC /* EggCollectionView.swift in Sources */,
+				8E66741C2ABB604000B86A7B /* ContentView.swift in Sources */,
+				8E20CAA12ABDB66D001C38CC /* PetEggModel.swift in Sources */,
+				8EFA2CCA2AD7341C0074024A /* NotificationManager.swift in Sources */,
+				8E2418192AC344F1003E8429 /* PetModel.swift in Sources */,
+				8E66741A2ABB604000B86A7B /* CollectionCreaturesApp.swift in Sources */,
+				8E24181B2AC35A51003E8429 /* PetCollectionView.swift in Sources */,
+				8E66744A2ABB827B00B86A7B /* HealthKitManager.swift in Sources */,
+				8E20CAA52ABDD132001C38CC /* EggViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6674222ABB604100B86A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E66742B2ABB604100B86A7B /* CollectionCreatures_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E66742C2ABB604100B86A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6674352ABB604100B86A7B /* CollectionCreatures_Watch_AppUITests.swift in Sources */,
+				8E6674372ABB604100B86A7B /* CollectionCreatures_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E6674172ABB604000B86A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E6674132ABB604000B86A7B /* CollectionCreatures Watch App */;
+			targetProxy = 8E6674162ABB604000B86A7B /* PBXContainerItemProxy */;
+		};
+		8E6674282ABB604100B86A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E6674132ABB604000B86A7B /* CollectionCreatures Watch App */;
+			targetProxy = 8E6674272ABB604100B86A7B /* PBXContainerItemProxy */;
+		};
+		8E6674322ABB604100B86A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E6674132ABB604000B86A7B /* CollectionCreatures Watch App */;
+			targetProxy = 8E6674312ABB604100B86A7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E6674382ABB604100B86A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E6674392ABB604100B86A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8E66743B2ABB604100B86A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CollectionCreatures Watch App/CollectionCreatures Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CollectionCreatures Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6FP5LT63NT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CollectionCreatures;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "please allow to use app";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "please allow to use app";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "please allow to use app";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.CollectionCreatures.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		8E66743C2ABB604100B86A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CollectionCreatures Watch App/CollectionCreatures Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CollectionCreatures Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6FP5LT63NT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CollectionCreatures;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "please allow to use app";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "please allow to use app";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "please allow to use app";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.CollectionCreatures.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		8E66743F2ABB604100B86A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FP5LT63NT;
+				INFOPLIST_KEY_CFBundleDisplayName = CollectionCreatures;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.CollectionCreatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		8E6674402ABB604100B86A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FP5LT63NT;
+				INFOPLIST_KEY_CFBundleDisplayName = CollectionCreatures;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.CollectionCreatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		8E6674422ABB604100B86A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FP5LT63NT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.CollectionCreatures-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollectionCreatures Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CollectionCreatures Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		8E6674432ABB604100B86A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FP5LT63NT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.CollectionCreatures-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollectionCreatures Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CollectionCreatures Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		8E6674452ABB604100B86A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FP5LT63NT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.CollectionCreatures-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CollectionCreatures Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		8E6674462ABB604100B86A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FP5LT63NT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.CollectionCreatures-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CollectionCreatures Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E66740B2ABB604000B86A7B /* Build configuration list for PBXProject "CollectionCreatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6674382ABB604100B86A7B /* Debug */,
+				8E6674392ABB604100B86A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E66743A2ABB604100B86A7B /* Build configuration list for PBXNativeTarget "CollectionCreatures Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E66743B2ABB604100B86A7B /* Debug */,
+				8E66743C2ABB604100B86A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E66743E2ABB604100B86A7B /* Build configuration list for PBXNativeTarget "CollectionCreatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E66743F2ABB604100B86A7B /* Debug */,
+				8E6674402ABB604100B86A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E6674412ABB604100B86A7B /* Build configuration list for PBXNativeTarget "CollectionCreatures Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6674422ABB604100B86A7B /* Debug */,
+				8E6674432ABB604100B86A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E6674442ABB604100B86A7B /* Build configuration list for PBXNativeTarget "CollectionCreatures Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6674452ABB604100B86A7B /* Debug */,
+				8E6674462ABB604100B86A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E6674082ABB604000B86A7B /* Project object */;
+}
